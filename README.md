@@ -1,9 +1,12 @@
 # DAGM-Mono: Deformable Attention-Guided Modeling for Monocular 3D Reconstruction
 
+![workflow](https://github.com/YoushaaMurhij/DAGM-Mono/actions/workflows/main.yml/badge.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Introduction
 This repo is the Pytorch Code of  DAGM-Mono: Deformable Attention-Guided Modeling for Monocular 3D Reconstruction.
 
+### DAGM-Mono main pipeline:
+<img src="./assets\DAGM-Mono.png" alt="drawing" width="800"/>
 
 
 ## Data setting
@@ -20,9 +23,9 @@ ${CODE Root}
             |-- images
 ```
 
-- Download annotation files to fill in `apollo_annot` [[hear](https://drive.google.com/file/d/1qCUdjJEnKS7jyXDVuDBO5wCYZFeo1VsY/view?usp=sharing)].
+- Download annotation files to fill in `apollo_annot` [[here](https://drive.google.com/file/d/1qCUdjJEnKS7jyXDVuDBO5wCYZFeo1VsY/view?usp=sharing)].
 
-- Download image files to fill in `images` [[hear](https://apolloscape.auto/car_instance.html)].
+- Download image files to fill in `images` [[here](https://apolloscape.auto/car_instance.html)].
 
 
 ## Usage:
