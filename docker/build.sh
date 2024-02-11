@@ -2,4 +2,4 @@
 
 docker build . \
              -f Dockerfile/Dockerfile \
-             -t x64/fmf:latest 
+             -t x64/dagm:latest 
