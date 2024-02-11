@@ -1,11 +1,11 @@
 # DAGM-Mono: Deformable Attention-Guided Modeling for Monocular 3D Reconstruction
 
-![workflow](https://github.com/YoushaaMurhij/DAGM-Mono/actions/workflows/main.yml/badge.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Introduction
 This repo is the Pytorch Code of  DAGM-Mono: Deformable Attention-Guided Modeling for Monocular 3D Reconstruction.
 
-### DAGM-Mono main pipeline:
+### DAGM-Mono Overview:
 <img src="./assets\DAGM-Mono.png" alt="drawing" width="800"/>
 
 
@@ -94,12 +94,12 @@ To run inference, update the weights path in the yaml config file and run:
 1. Install open3D python library
 2. Move to 'vis' folder.
 3. Run the command below.
+
 ```bash
     python vis_apollo.py \
         --output [path where the results are saved] \
         --file [file name to vis] \
         --save [path to save vis results]
-
 ```
 
 ## License
