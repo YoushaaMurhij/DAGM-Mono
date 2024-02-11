@@ -1,0 +1,7 @@
+**/__pycache__/
+/data/*
+/vis/vis_results
+/outputs*
+**.pth
+/docker
+/evaluation/**.txt
