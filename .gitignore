@@ -3,5 +3,4 @@
 /vis/vis_results
 /outputs*
 **.pth
-/docker
 /evaluation/**.txt

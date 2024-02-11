@@ -1,6 +1,6 @@
 _BASE_: "res2net-bifpn.yaml" 
 MODEL:
-  WEIGHTS: best_rel_model.pth #res2net_bifpn.pth
+  WEIGHTS: pretrained/res2net_bifpn.pth
   DEVICE: 'cuda:0'
   BACKBONE:
     FREEZE_AT: 2
