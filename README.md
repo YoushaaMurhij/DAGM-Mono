@@ -10,12 +10,12 @@ This repo is the Pytorch Code of  DAGM-Mono: Deformable Attention-Guided Modelin
 
 
 ## Qualitative results on ApolloCar3D - Projection on original images:
-<img src="./assets\1.png" alt="drawing" width="300"/>
-<img src="./assets\2.png" alt="drawing" width="300"/>
-<img src="./assets\3.png" alt="drawing" width="300"/>
-<img src="./assets\4.png" alt="drawing" width="300"/>
-<img src="./assets\5.png" alt="drawing" width="300"/>
-<img src="./assets\6.png" alt="drawing" width="300"/>
+<!-- |---|---| -->
+| ![Image 1](./assets/1.png) | ![Image 2](./assets/2.png) |
+|---|---|
+| ![Image 3](./assets/3.png) | ![Image 4](./assets/4.png) |
+<!-- |---|---| -->
+<!-- | ![Image 5](./assets/5.png) | ![Image 6](./assets/6.png) | -->
 
 
 ## Main Results on ApolloCar3D - Car Instance Benchmark:
