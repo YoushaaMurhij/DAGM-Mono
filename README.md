@@ -5,15 +5,22 @@
 ## Introduction
 This repo is the Pytorch Code of  DAGM-Mono: Deformable Attention-Guided Modeling for Monocular 3D Reconstruction.
 
+Our work introduces DAGM-Mono, a monocular 3D pose and shape reconstruction algorithm. 
+We address the challenge of detailed shape reconstruction by leveraging deformable attention mechanisms. 
+Specifically, given 2D primitives, we reconstruct 3D object shapes using attention-guided modeling, considering the relevance between detected objects and vehicle shape priors.
+Our method introduces two additional loss functions: Chamfer Distance (CD) and Hierarchical Chamfer Distance to enhance the process of shape reconstruction.
+Additionally, our bi-contextual deformable attention framework estimates 3D object poses, capturing both inter-object relations and scene context. 
+Extensive experiments demonstrate that DAGM-Mono achieves state-of-the-art performance on the ApolloCar3D dataset and significantly enhances the performance of mature monocular 3D object detectors.
+
 ### DAGM-Mono Overview:
 <img src="./assets\DAGM-Mono.png" alt="drawing" width="800"/>
 
 
 ## Qualitative results on ApolloCar3D - Projection on original images:
 <!-- |---|---| -->
-| ![Image 1](./assets/1.png) | ![Image 2](./assets/2.png) |
+| <img src="./assets\1.png" alt="drawing" width="350"/> |  <img src="./assets\2.png" alt="drawing" width="350"/> |
 |---|---|
-| ![Image 3](./assets/3.png) | ![Image 4](./assets/4.png) |
+|  <img src="./assets\3.png" alt="drawing" width="350"/> |  <img src="./assets\4.png" alt="drawing" width="350"/> |
 
 ## Qualitative results on ApolloCar3D - 3D mesh:
 | <img src="./assets\171206_034625454_Camera_5.jpg" alt="drawing" width="350" height="200"/> | <img src="./assets\171206_034625454_Camera_5.3d.png" alt="drawing" height="200"/>  |
