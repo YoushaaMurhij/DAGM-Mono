@@ -14,9 +14,11 @@ This repo is the Pytorch Code of  DAGM-Mono: Deformable Attention-Guided Modelin
 | ![Image 1](./assets/1.png) | ![Image 2](./assets/2.png) |
 |---|---|
 | ![Image 3](./assets/3.png) | ![Image 4](./assets/4.png) |
-<!-- |---|---| -->
-<!-- | ![Image 5](./assets/5.png) | ![Image 6](./assets/6.png) | -->
 
+## Qualitative results on ApolloCar3D - 3D mesh:
+| <img src="./assets\171206_034625454_Camera_5.jpg" alt="drawing" width="350" height="200"/> | <img src="./assets\171206_034625454_Camera_5.3d.png" alt="drawing" height="200"/>  |
+|---|---|
+| <img src="./assets\171206_041139639_Camera_5.jpg" alt="drawing" width="350" height="200"/> | <img src="./assets\171206_041139639_Camera_5.3d.png" alt="drawing" height="200"/>  |
 
 ## Main Results on ApolloCar3D - Car Instance Benchmark:
 
@@ -33,8 +35,6 @@ Main A3DP-Abs metrics on ApolloCar3D - Car Instance Benchmark (Validation Set)
 | H. Cham. + D-Att  | **0.2548** | **0.4734** | **0.438** | **0.3949** | **0.3494** | **0.2995** | **0.2402** | **0.1758** | **0.1142** | 0.0527 |
 
 Main A3DP-Rel metrics on ApolloCar3D - Car Instance Benchmark (Validation Set)
-
-Sure, here is the converted markdown table:
 
 | Experiment | Mean | c0 | c1 | c2 | c3 | c4 | c5 | c6 | c7 | c8 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
