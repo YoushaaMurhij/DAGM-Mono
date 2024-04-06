@@ -14,7 +14,8 @@ Extensive experiments demonstrate that DAGM-Mono achieves state-of-the-art perfo
 
 ### DAGM-Mono Overview:
 <img src="./assets\DAGM-Mono.png" alt="drawing" width="800"/>
-
+<img src="./assets\DAGM-Block.png" alt="drawing" width="800"/>
+<img src="./assets\BCDA-Block.png" alt="drawing" width="800"/>
 
 ## Qualitative results on ApolloCar3D - Projection on original images:
 <!-- |---|---| -->
