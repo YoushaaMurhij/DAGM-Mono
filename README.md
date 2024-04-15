@@ -1,6 +1,8 @@
 # DAGM-Mono: Deformable Attention-Guided Modeling for Monocular 3D Reconstruction
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Project-Page](https://img.shields.io/badge/🐳-Project%20Page-blue.svg)](https://youshaamurhij.github.io/DAGM-Mono)
+[![arXiv](https://img.shields.io/badge/arXiv-Soon!-b31b1b.svg)](https://arxiv.org/)
 
 ## Introduction
 This repo is the Pytorch Code of  DAGM-Mono: Deformable Attention-Guided Modeling for Monocular 3D Reconstruction.
