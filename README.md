@@ -2,7 +2,9 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Project-Page](https://img.shields.io/badge/🐳-Project%20Page-blue.svg)](https://youshaamurhij.github.io/DAGM-Mono)
-[![arXiv](https://img.shields.io/badge/arXiv-Soon!-b31b1b.svg)](https://arxiv.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-Soon!-b31b1b.svg)](https://arxiv.org/) [![DOI](https://zenodo.org/badge/doi/10.3103/S1060992X2470005X.svg)](https://doi.org/10.3103/S1060992X2470005X)
+
+[Optical Memory and Neural Networks paper link](https://link.springer.com/article/10.3103/S1060992X2470005X?utm_source=rct_congratemailt&utm_medium=email&utm_campaign=nonoa_20240704&utm_content=10.3103%2FS1060992X2470005X#citeas) on Springer!
 
 ## Introduction
 This repo is the Pytorch Code of  DAGM-Mono: Deformable Attention-Guided Modeling for Monocular 3D Reconstruction.
@@ -152,3 +154,21 @@ To run inference, update the weights path in the yaml config file and run:
 
 ## License
 DAGM-Mono is released under MIT license (see LICENSE). It is developed based on a forked version of `BAAM`. We also used code from `OFMPNet`, `Swin-Transformer` and `FMFNet`. Note that the used dataset (ApolloCar3D) is subject to their respective licenses and may not grant commercial use.
+
+## Citation:
+If you find this work helpful, please consider citing:
+```
+@article{murhij2024dagm,
+    title     = {DAGM-Mono: Deformable Attention-Guided Modeling for Monocular 3D Reconstruction},
+    author    = {Murhij, Youshaa and Yudin, Dmitry},
+    journal   = {Optical Memory and Neural Networks},
+    volume    = {33},
+    number    = {2},
+    pages     = {144--156},
+    year      = {2024},
+    publisher = {Springer}
+}
+```
+## Contact:
+Questions and suggestions are welcome! </br>
+Youshaa Murhij: yosha.morheg at phystech.edu
